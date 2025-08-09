@@ -12,5 +12,10 @@ describe('String Calculator', () => {
     test('two numbers returns sum', () => {
         expect(add("1,5")).toBe(6);
     });
+
+    test('multiple numbers returns sum', () => {
+        expect(add("1,2,3,4")).toBe(10);
+    });
+
 })
 
